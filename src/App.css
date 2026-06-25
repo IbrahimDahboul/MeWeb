@@ -1,0 +1,65 @@
+:root {
+  background-color: rgb(248, 245, 255);
+  overflow: hidden;
+}
+.msg {
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  flex-direction: column;
+}
+
+.topping {
+  margin-top: -75px;
+  height: 13px;
+  width: 400px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: rgb(51, 44, 44);
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 175px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-top: 40px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.536);
+  text-align: center;
+  user-select: none;
+}
+
+#cantact {
+  width: 30px;
+
+  background-color: rgba(142, 21, 255, 0);
+}
+
+.linkedin {
+  position: relative;
+  left: -0px;
+  cursor: pointer;
+}
+
+.gmail {
+  position: relative;
+  left: 25px;
+  cursor: pointer;
+}
+
+.github {
+  position: relative;
+  left: -25px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+  .topping {
+    width: 100%;
+  }
+}
